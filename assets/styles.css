@@ -10,7 +10,7 @@
   /* Grid background and images */
 
 .grid_area {
-  background: url("../assets/images/background.jpg") 0% 100%;
+  background: url("../assets/images/background.jpg") 50% 100% no-repeat;
   height: 538px;
   min-width: 1440px;
   display: flex;
@@ -22,22 +22,29 @@
 nav {
   display: flex;
   align-self: center;
+  margin-top: 100px;
 }
 
 nav a {
-  border: 1px solid #757575;
-  width: 106px;
-  height: 36px;
-  text-align: center;
-  line-height: 30px;
-  color: white;
-  text-shadow: 0px 0.6px rgba(0, 0, 0, 0.6), 0px -0.6px rgba(0, 0, 0, 0.9);
   background: rgb(111,111,111);
   background: linear-gradient(0deg, rgba(111,111,111,1) 0%, rgba(85,85,85,1) 50%, rgba(95,95,95,1) 51%, rgba(111,111,111,1) 100%);
+  border: 1px solid #757575;
+  color: white;
+  text-align: center;
+  line-height: 30px;
+  text-shadow: 0px 0.6px rgba(0, 0, 0, 0.6), 0px -0.6px rgba(0, 0, 0, 0.9);
+  width: 106px;
+  height: 36px;
+  font-weight: bold;
+
 }
 
 nav a:first-child {
   line-height: 43px;
+}
+
+input {
+  width: auto;
 }
 
 .images img {
