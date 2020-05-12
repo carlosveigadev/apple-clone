@@ -70,3 +70,30 @@ input {
   height: auto;
   display: flex;
 }
+
+/* Text article */
+
+.text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: white;
+}
+
+h2 {
+  font-size: 60px;
+  font-weight: lighter;
+  margin-top: 45px;
+}
+
+h3 {
+  font-size: 32px;
+  font-weight:normal;
+  margin-top: 5px;
+}
+
+h4 {
+  font-size: 22px;
+  font-weight:normal;
+  margin-top: 25px;
+}
