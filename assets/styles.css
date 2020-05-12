@@ -64,13 +64,6 @@ input {
   font-weight: bold;
 }
 
-.images img {
-  border: 1px solid red;
-  width: 364px;
-  height: auto;
-  display: flex;
-}
-
 /* Text article */
 
 .text {
@@ -96,4 +89,18 @@ h4 {
   font-size: 22px;
   font-weight:normal;
   margin-top: 25px;
+}
+
+/* Images */
+
+.images {
+  display: flex;
+  justify-content: center;
+}
+
+.images img {
+    width: 360px;
+    height: auto;
+
+
 }
