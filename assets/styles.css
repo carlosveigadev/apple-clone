@@ -72,7 +72,7 @@ nav a:first-child {
 input {
   outline: none;
   border: none;
-  background: url(/assets/images/lupa.png) no-repeat 1%;
+  background: url("../assets/images/lupa.png") no-repeat 1%;
   border-radius: 30px;
   box-shadow: 0px 1px #808080, 0px -1px #363636;
   font-size: 14px;
@@ -86,7 +86,7 @@ input {
 
 input:focus {
   background-color: white;
-  background: url(/assets/images/lupa_selected.png) no-repeat 1%, white;
+  background: url("../assets/images/lupa_selected.png") no-repeat 1%, white;
   width: 170px;
 }
 /* Text article */
@@ -183,7 +183,7 @@ footer {
 
 .useful_links li:last-child {
   border-right: none;
-  padding-left: 10px; 
+  padding-left: 10px;
 }
 
 .useful_links img {
