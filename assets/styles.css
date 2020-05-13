@@ -168,20 +168,24 @@ footer {
     margin-top: 15px;
 
 }
-.useful_links a {
+
+.useful_links ul {
+  list-style-type: none;
+  display: flex;
+  align-items: center;
+}
+.useful_links li a {
   border-right: 1px solid gray;
   padding: 0 8px 0 8px;
-  font-size: 10px;
+  font-size: 9px;
   color: #3ba3ff;
 }
 
-.useful_links a:last-child {
+.useful_links li:last-child {
   border-right: none;
+  padding-left: 10px; 
 }
 
 .useful_links img {
   width: 20px;
-  position: relative;
-  top: 6px;
-
 }
