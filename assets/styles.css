@@ -140,3 +140,48 @@ h4:hover {
     height: auto;
     margin: 1px 1px 1px 1px;
 }
+
+  /* footer */
+
+footer {
+  display: flex;
+  font-size: 10px;
+  justify-content: center;
+}
+
+.info_area * {
+  font-size: 10px;
+  margin-top: 10px;
+}
+
+.info_area a {
+  color: #3ba3ff;
+}
+
+.info_area {
+    margin: 15px 20px 10px 0;
+    min-width: 580px;
+    color: rgba(0, 0, 0, 0.8);
+}
+
+.useful_links {
+    margin-top: 25px;
+
+}
+.useful_links a {
+  border-right: 1px solid gray;
+  padding: 0 8px 0 8px;
+  font-size: 10px;
+  color: #3ba3ff;
+}
+
+.useful_links a:last-child {
+  border-right: none;
+}
+
+.useful_links img {
+  width: 20px;
+  position: relative;
+  top: 6px;
+
+}
