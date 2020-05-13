@@ -7,12 +7,18 @@
   font-family: 'Gothic A1', sans-serif;
 }
 
+  /* responsiveness */
+
+.resize {
+  width: auto;
+  margin: auto;
+}
   /* Grid background and images */
 
 .grid_area {
   background: url("../assets/images/background.jpg") 50% 100% no-repeat;
   height: 538px;
-  min-width: 1440px;
+  width: auto;
   display: flex;
   flex-direction: column;
 }
@@ -23,11 +29,12 @@ nav {
   display: flex;
   align-self: center;
   margin-top: 83px;
+  width: 980px;
 }
 
 nav a {
-  background: rgb(111,111,111);
-  background: linear-gradient(0deg, rgba(111,111,111,1) 0%, rgba(85,85,85,1) 50%, rgba(95,95,95,1) 51%, rgba(111,111,111,1) 100%);
+  background: rgb(111,111,111);/*falback color*/
+  background: linear-gradient(0deg, rgba(120,120,120,1) 0%, rgba(95,95,95,1) 50%, rgba(110,110,110 ,1) 51%, rgba(120,120,120,1) 100%);
   border: 1px solid #757575;
   color: white;
   text-align: center;
@@ -41,9 +48,9 @@ nav a {
 
 }
 
-nav a:last-child {
-  width: 130px;
-  border-radius: 0 5px 5px 0;
+nav a:hover {
+  background: rgb(111,111,111); /*falback color*/
+  background: linear-gradient(0deg, rgba(95,95,95,1) 0%, rgba(65,65,65,1) 50%, rgba(75,75,75,1) 51%, rgba(95,95,95,1) 100%)
 }
 
 nav a:first-child {
@@ -51,19 +58,37 @@ nav a:first-child {
   border-radius: 5px 0 0 5px;
 }
 
+.input-div {
+  background: red;
+  width: auto;
+  display: flex;
+  align-items: center;
+  padding: 0 10px 0 10px;
+  background: rgb(111,111,111); /*falback color*/
+  background: linear-gradient(0deg, rgba(120,120,120,1) 0%, rgba(95,95,95,1) 50%, rgba(110,110,110 ,1) 51%, rgba(120,120,120,1) 100%);
+  border-radius: 0 5px 5px 0;
+}
+
 input {
-  width: 80%;
   outline: none;
   border: none;
   background: url(/assets/images/lupa.png) no-repeat 1%;
   border-radius: 30px;
   box-shadow: 0px 1px #808080, 0px -1px #363636;
-  padding-left: 20px;
   font-size: 14px;
   color: white;
   font-weight: bold;
+  width: 106px;
+  height: 19px;
+  padding-left: 20px;
+  transition: width 0.5s;
 }
 
+input:focus {
+  background-color: white;
+  background: url(/assets/images/lupa_selected.png) no-repeat 1%, white;
+  width: 170px;
+}
 /* Text article */
 
 .text {
@@ -96,11 +121,11 @@ h4 {
 .images {
   display: flex;
   justify-content: center;
+  width: auto;
 }
 
 .images img {
-    width: 360px;
+    max-width: 338px;
     height: auto;
-
-
+    margin: 1px 1px 1px 1px;
 }
