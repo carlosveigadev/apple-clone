@@ -10,15 +10,15 @@
   /* responsiveness */
 
 .resize {
-  width: auto;
-  margin: auto;
+  min-width: 1440px;
+  padding: 0 1px 0px 1px;
 }
   /* Grid background and images */
 
 .grid_area {
   background: url("../assets/images/background.jpg") 50% 100% no-repeat;
   height: 538px;
-  width: auto;
+  max-width: 1440px;
   display: flex;
   flex-direction: column;
 }
@@ -114,6 +114,17 @@ h4 {
   font-size: 22px;
   font-weight:normal;
   margin-top: 25px;
+  color: white;
+}
+
+.text img {
+  position: relative;
+  top: 5px;
+  width: 28px;
+
+}
+h4:hover {
+  text-decoration: underline;
 }
 
 /* Images */
@@ -125,7 +136,7 @@ h4 {
 }
 
 .images img {
-    max-width: 338px;
+    width: 358px;;
     height: auto;
     margin: 1px 1px 1px 1px;
 }
