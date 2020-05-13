@@ -2,7 +2,7 @@
 
 > This project consists of building a webpage using images as a background and adding gradients to elements. The goal is to make a clone of old an old version of the Apple website webpage, as part of the microverse curriculum.
 
-![screenshot](.assets/images/screenshot.png)
+![screenshot](app_screenshot.png)
 
 Additional description about the project and its features.
 
