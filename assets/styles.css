@@ -15,11 +15,15 @@
   margin: 0 auto;
 }
 
-.text, .input, .useful_links ul {
+.text,
+.input,
+.useful_links ul {
   align-items: center;
 }
 
-.grid_area, .images, footer {
+.grid_area,
+.images,
+footer {
   display: flex;
   justify-content: center;
 }
