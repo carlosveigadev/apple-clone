@@ -10,8 +10,18 @@
 /* responsiveness */
 
 .resize {
-  min-width: 1440px;
+  max-width: 1440px;
   padding: 0 1px 0 1px;
+  margin: 0 auto;
+}
+
+.text, .input, .useful_links ul {
+  align-items: center;
+}
+
+.grid_area, .images, footer {
+  display: flex;
+  justify-content: center;
 }
 
 /* Grid background and images */
@@ -20,7 +30,6 @@
   background: url("../assets/images/background.jpg") 50% 100% no-repeat;
   height: 538px;
   max-width: 1440px;
-  display: flex;
   flex-direction: column;
   margin-left: auto;
   margin-right: auto;
@@ -65,7 +74,6 @@ nav a:first-child {
 .input-div {
   width: auto;
   display: flex;
-  align-items: center;
   padding: 0 10px 0 10px;
   background: linear-gradient(0deg, rgba(120, 120, 120, 1) 0%, rgba(95, 95, 95, 1) 50%, rgba(110, 110, 110, 1) 51%, rgba(120, 120, 120, 1) 100%);
   border-radius: 0 5px 5px 0;
@@ -96,7 +104,6 @@ input:focus {
 .text {
   display: flex;
   flex-direction: column;
-  align-items: center;
   color: white;
 }
 
@@ -132,8 +139,6 @@ h4:hover {
 /* Images */
 
 .images {
-  display: flex;
-  justify-content: center;
   width: auto;
 }
 
@@ -146,9 +151,7 @@ h4:hover {
 /* footer */
 
 footer {
-  display: flex;
   font-size: 10px;
-  justify-content: center;
 }
 
 .info_area * {
@@ -169,7 +172,6 @@ footer {
 .useful_links ul {
   list-style-type: none;
   display: flex;
-  align-items: center;
 }
 
 .useful_links li a {
