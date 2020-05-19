@@ -13,7 +13,7 @@ Additional description about the project and its features.
 
 ## Live Demo
 
-[Live Demo Link](https://rawcdn.githack.com/wrakc/apple-clone/73f00f12b42336ddf6f6bc2ccfa374963b2256ac/index.html)
+[Live Demo Link](https://wrakc.github.io/apple-clone/)
 
 
 ## Getting Started
